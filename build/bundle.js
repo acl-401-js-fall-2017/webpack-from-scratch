@@ -76,7 +76,7 @@ console.log('69+420=',add(69,420));
 /***/ (function(module, exports) {
 
 function add(x,y){
-  return x+y;
+  return x+y+2;
 }
 
 module.exports = add;
