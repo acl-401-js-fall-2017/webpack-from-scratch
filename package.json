@@ -1,0 +1,23 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robnit/webpack-from-scratch.git"
+  },
+  "author": "Robin Miller <rmillerpdx@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robnit/webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/robnit/webpack-from-scratch#readme"
+}
