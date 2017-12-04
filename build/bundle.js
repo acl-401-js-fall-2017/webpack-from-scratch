@@ -76,7 +76,7 @@ console.log('40 + 2 =', add (40, 2));
 /***/ (function(module, exports) {
 
 function ass(x, y){
-    return x + y;
+    return x + y +2;
 }
 
 module.exports = add;
