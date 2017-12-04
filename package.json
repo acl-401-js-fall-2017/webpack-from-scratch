@@ -1,0 +1,19 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckrountree/webpack-from-scratch.git"
+  },
+  "author": "CK Rountree <jmail0207@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckrountree/webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/ckrountree/webpack-from-scratch#readme"
+}
