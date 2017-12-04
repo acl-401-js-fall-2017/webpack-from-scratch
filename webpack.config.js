@@ -4,12 +4,21 @@ module.exports = {
   entry: `${__dirname}/src/main.js`,
   output: {
     path: `${__dirname}/build`,
-    filename: 'bundle-[hash].js'
+    filename: 'bundle.js'
   },
   devServer: {
     contentBase: `${__dirname}/build`
   },
   plugins: [
     new HTMLPlugin()
-  ]
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+      }
+    ]
+  }
 }
