@@ -10,7 +10,7 @@ module.exports = {
     contentBase: `${__dirname}/build`
   },
   plugins: [
-    new HTMLPlugin()
+    new HTMLPlugin({ template: `${__dirname}/src/index.html` })
   ],
   module: {
     rules: [
