@@ -11,6 +11,14 @@ module.exports ={
     },
     plugins: [
         new HTMLPlugin()
-    ]
-    
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+            }
+        ]
+    }
 };
