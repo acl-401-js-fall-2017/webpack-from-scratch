@@ -1,5 +1,6 @@
 const HTMLPlugin = require('html-webpack-plugin');
 module.exports ={ 
+    devtool: 'source-map',
     entry: `${__dirname}/src/main.js`,
     output: {
         path: `${__dirname}/build`,
