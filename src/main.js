@@ -1,3 +1,7 @@
-import add from './add';
+import React from 'react'
+import ReactDom from 'react-dom'
 
-console.log('69+420=',add(69,420));
+ReactDom.render(
+  <div>hello worldg</div>,
+  document.body
+);
