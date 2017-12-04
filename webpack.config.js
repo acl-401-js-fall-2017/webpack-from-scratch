@@ -1,6 +1,7 @@
 const HTMLPlugin = require('html-webpack-plugin')
 
 module.exports = {
+    devtool: "source-map",
     entry: `${__dirname}/src/main.js`,
     output: {
         path: `${__dirname}/build`,
@@ -11,5 +12,14 @@ module.exports = {
     },
     plugins: [
         new HTMLPlugin()
-    ]
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            }
+        ]
+    }
 }
