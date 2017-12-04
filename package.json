@@ -1,0 +1,23 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirrorapps/webpack-from-scratch.git"
+  },
+  "author": "Eli Speigel <eli.speigel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirrorapps/webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/mirrorapps/webpack-from-scratch#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "webpack": "^3.10.0"
+  }
+}
