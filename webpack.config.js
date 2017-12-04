@@ -1,3 +1,5 @@
+const HTMLPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: `${__dirname}/src/main.js`,
   output: {
@@ -6,5 +8,8 @@ module.exports = {
   },
   devServer: {
     contentBase:`${__dirname}/build`
-  }
+  },
+  plugins : [
+    new HTMLPlugin()
+  ]
 }
