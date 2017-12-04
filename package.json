@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ShaneMoyo/webpack-from-scratch/issues"
   },
-  "homepage": "https://github.com/ShaneMoyo/webpack-from-scratch#readme"
+  "homepage": "https://github.com/ShaneMoyo/webpack-from-scratch#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
