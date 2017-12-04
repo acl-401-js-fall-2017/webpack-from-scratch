@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 export default class App extends Component {
   constructor(props) {
@@ -8,14 +9,14 @@ export default class App extends Component {
     };
   }
 
-  state = {
-    name: 'World'
-  }
+  // state = {
+  //   name: 'World'
+  // }
 
   render() {
     return(
       <main>
-        <div>Hello {this.state.name}</div>
+        <div className="greeting">Hello {this.state.name}</div>
         <div>
           <input name="name" value={this.state.name} onChange={this.handleChange}/>
         </div>
