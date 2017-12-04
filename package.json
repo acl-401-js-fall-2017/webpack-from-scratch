@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/acl-401-js-fall-2017/webpack-from-scratch#readme",
   "devDependencies": {
     "eslint": "^4.12.1",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.5"
   }
 }
