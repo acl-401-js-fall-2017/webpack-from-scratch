@@ -1,0 +1,23 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdemkoral/webpack-from-scratch.git"
+  },
+  "author": "Erdem Koral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdemkoral/webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/erdemkoral/webpack-from-scratch#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "webpack": "^3.10.0"
+  }
+}
