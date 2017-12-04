@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 export default class App extends Component {
   state = {
@@ -10,8 +11,8 @@ export default class App extends Component {
   render () {
     return (
       <main>
-      <div>hhhiiii {this.state.name}</div>
-      <input name="name" value={name} onChange={this.handleChange}/>
+      <div className="greeting">hh8hiiii {this.state.name}</div>
+      <input name="name" value={this.state.name} onChange={this.handleChange}/>
       </main>
     )
   }
