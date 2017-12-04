@@ -1,0 +1,20 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acl-401-js-fall-2017/webpack-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "David Nishikawa <triptype@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acl-401-js-fall-2017/webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/acl-401-js-fall-2017/webpack-from-scratch#readme"
+}
