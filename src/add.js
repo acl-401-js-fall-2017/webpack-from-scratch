@@ -1,5 +1,3 @@
-function add(x, z) {
-  return x + z;
+export default (x, y)  => {
+  return x + y;
 }
-
-module.exports = add;
