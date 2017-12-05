@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import style from './GreetingForm'
 
 export default class GreetingForm extends Component {
   render() {
