@@ -1,4 +1,5 @@
 const HTMLPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
   devtool: 'source-map',
@@ -11,6 +12,7 @@ module.exports = {
     contentBase: `${__dirname}/build`
   },
   plugins: [
+    new ExtractTextPlugin('bundle.css'),
     new HTMLPlugin({ template: `${__dirname}/src/index.html`})
   ],
   module: {
@@ -22,7 +24,7 @@ module.exports = {
       },
       {
         test:/\.css$/,
-        loader: ['style-loader', 'css-loader'],
+        loader: ExtractTextPlugin.extract(['css-loader']),
       }
     ]
   }
