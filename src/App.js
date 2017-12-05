@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
+import Greeting from './Greeting';
+import GreetingForm from './GreetingForm';
 
 export default class App extends Component {
 state = {
