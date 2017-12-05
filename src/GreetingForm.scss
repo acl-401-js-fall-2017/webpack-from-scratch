@@ -1,3 +1,7 @@
 :local(.greeting) {
-  color: greenyellow;
+  label {
+    color: greenyellow;
+    font-size: 12px;
+    font-weight: bolder;
+  }
 }
