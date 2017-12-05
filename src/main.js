@@ -7,4 +7,3 @@ ReactDom.render(
     document.getElementById('root')
 );
 
-console.log('38 + 4 is', add(38, 4));

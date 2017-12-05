@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './App.scss';
+
 
 export default class App extends Component {
 
@@ -6,17 +8,21 @@ export default class App extends Component {
         name: 'World'
     }
 
-    handleChange = ({ target }) => this.setState({ [target.name]: target.value })
+    handleChange = e => {
+        e.preventDefault();
+        this.setState({ [e.target.name.name]: e.target.name.value });
+    };
 
     render() {
+        console.log(this.state)
         return (
-            <div>
-                <div>Hello World</div>
+            <main className="greeting">
+                <div>Hello {this.state.name}</div>
                 <form onSubmit={this.handleChange}>
                     <input type="text" name="name" placeholder="name"/>
                     <input type="submit" placeholder="name"/>
                 </form>
-            </div>
+            </main>
         );
     }
 }
