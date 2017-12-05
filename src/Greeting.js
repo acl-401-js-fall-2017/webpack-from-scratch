@@ -5,7 +5,7 @@ export default class Greeting extends Component {
   render() {
     const { salutation, name } = this.props;
     return (
-      <div className="greeting">
+      <div className={style.greeting}>
         {salutation} <span>{name}</span>
       </div>
     );
