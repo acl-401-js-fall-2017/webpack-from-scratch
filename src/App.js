@@ -21,7 +21,6 @@ export default class App extends Component {
         <Greeting salutation={salutation} name={name}/>
         <GreetingForm salutation={salutation} name={name}
             onChange={this.handleChange}/>
-    
       </main>
     )
   }
