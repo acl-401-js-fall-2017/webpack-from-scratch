@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 
 export default class App extends Component {
 state = {
@@ -12,11 +12,10 @@ render() {
     const { salutation, name } = this.state
         return(
             <main>
-            <div className="greeting" >{salutation} {name}</div>
-            <div>
-            <input name="salutation" value={salutation} onChange={this.handleChange}/>
-            <input name="name" value={name} onChange={this.handleChange} />
-            </div>
+                <h1>Greeting App</h1>
+                <Greeting salutation={salutation} name={name} />
+                <GreetingForm salutation={salutation} name={name}
+                 onChange={this.handleChange} />
             </main>    
         )
     }

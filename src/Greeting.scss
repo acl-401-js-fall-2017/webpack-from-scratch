@@ -1,0 +1,12 @@
+$color: green;
+.greeting {
+    color: $color;
+    font-size: 24px;
+    span {
+        font-weight: bolder;
+        cursor: pointer;
+        &:hover {
+            color: pink;
+        }
+    }
+}
