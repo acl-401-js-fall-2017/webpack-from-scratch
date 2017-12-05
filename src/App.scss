@@ -1,0 +1,12 @@
+$color: green;
+
+.greeting {
+  color: green;
+  span {
+    font-weight: bolder;
+    
+    &:hover {
+      color: pink;
+    }
+  }
+}

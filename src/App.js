@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import './App.css';
+import Greeting from './Greeting';
+import './App.scss';
+import GreetingForm from './GreetingForm';
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: 'world'
-    };
+
+  state = {
+    salutation: 'Hello',
+    name: 'World'
   }
 
-  // state = {
-  //   name: 'World'
-  // }
+  handleChange = ({ target }) => this.setState({ [target.name]: target.value });
 
   render() {
-    return(
+    const { salutation, name } = this.state;
+
+    return (
       <main>
-        <div className="greeting">Hello {this.state.name}</div>
-        <div>
-          <input name="name" value={this.state.name} onChange={this.handleChange}/>
-        </div>
+        <h1>Greeting App</h1>
+        <Greeting salutation={salutation} name={name}/>
+        <GreetingForm salutation={salutation} name={name} onChange={this.handleChange}/>
       </main>
     )
   }
