@@ -1,0 +1,16 @@
+$color: green;
+
+:local(.greeting) {
+  color: $color;
+  background: rgb(140, 176, 197);
+  font-size: 24px;
+  
+  span {
+    font-weight: bolder;
+    cursor: pointer;
+    
+    &:hover {
+      color: pink;
+    }
+  }
+}
